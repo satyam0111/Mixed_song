@@ -1,1 +1,7 @@
 librosa
+streamlit
+numpy 
+pandas
+soundfile
+os
+time
