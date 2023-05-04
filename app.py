@@ -91,4 +91,4 @@ if save_file_button:
         sf.write(file_path, mixed_audio, sr)
         st.success(f'Audio file saved as {file_path}!')
 else:
-st.warning('Upload at least two audio files to begin mixing!')
+    st.warning('Upload at least two audio files to begin mixing!')
