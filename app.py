@@ -64,7 +64,7 @@ if len(uploaded_files) >= 2:
         if effect_type == 'Reverb':
             effect_params['room_size'] = st.sidebar.slider('Room Size:', min_value=0.0, max_value=1.0, value=0.5, step=0.1)
             effect_params['damping'] = st.sidebar.slider('Damping:', min_value=0.0, max_value=1.0, value=0.5, step=0.1)
-            effect_params['wet_gain'] = st.sidebar.slider('Wet Gain:', min_value=0
+            effect_params['wet_gain'] = st.sidebar.slider('Wet Gain:', min_value=0)
     elif effect_type == 'Delay':
         effect_params['delay_time'] = st.sidebar.slider('Delay Time:', min_value=0, max_value=1000, value=500, step=10)
         effect_params['decay_ratio'] = st.sidebar.slider('Decay Ratio:', min_value=0.0, max_value=1.0, value=0.5, step=0.1)
